@@ -1,0 +1,41 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 3em;
+    align-items: center;
+    font-weight: 500;
+}
+.header__caixa{
+    display: flex;
+    justify-content: space-between;
+}
+.header__lista{
+display: flex;
+list-style: none;
+}
+.lista__link{
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+    margin: 0 1em;
+}
+.header__logo,.header__botoes{
+    margin: 0 4em;
+    display: flex;
+    align-items: center;
+}
+.header__logo img{
+margin-right: 0.5em;
+}
+.header__botoes a{
+margin: 0 1em;
+text-decoration: none;
+color: var(--cinza);
+}
+.header__botoes .botoes__cadastro{
+    background-color: var(--vinho);
+    color: var(--branco);
+    padding: 10px 18px;
+        border-radius: 8px;
+    
+}

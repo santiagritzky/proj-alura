@@ -1,0 +1,14 @@
+@import url('./header.css');
+@import url('./sobre.css');
+
+:root{
+    --branco:#FFFFFF;
+    --vinho:#8E2424;
+    --fonte-padrao:'Inter';
+    --cinza:#667085;
+}
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+}

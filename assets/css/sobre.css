@@ -1,0 +1,21 @@
+.sobre__nos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em 4em;
+}
+.sobre__texto{
+    font-weight: 600;
+    color: var(--vinho);
+}
+.sobre__titulo{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.sobre__paragrafo{
+    font-size: 20px;
+    font-weight: 400;
+    color:var(--cinza);
+    margin: 0 6em;
+}
