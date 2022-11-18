@@ -1,7 +1,7 @@
 .header__container{
     display: flex;
+    padding: 1.5em 1em  ;
     justify-content: space-between;
-    padding: 0.5em 3em;
     align-items: center;
     font-weight: 500;
 }
@@ -20,22 +20,33 @@ list-style: none;
     margin: 0 1em;
 }
 .header__logo,.header__botoes{
-    margin: 0 4em;
+    margin: 0 2em;
     display: flex;
     align-items: center;
 }
+
 .header__logo img{
 margin-right: 0.5em;
 }
+.header__logo {
+    padding: 0 4em;
+}
+.logo__texto{
+    font-size: 18px;
+    color: var(--cinza-logo);
+}
 .header__botoes a{
-margin: 0 1em;
+margin-left: 1em;
 text-decoration: none;
 color: var(--cinza);
+}
+.botoes__entrar{
+    padding: 0 1em;
 }
 .header__botoes .botoes__cadastro{
     background-color: var(--vinho);
     color: var(--branco);
     padding: 10px 18px;
-        border-radius: 8px;
+    border-radius: 8px;
     
 }
