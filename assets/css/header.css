@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     font-weight: 500;
+    flex-wrap: wrap;
 }
 .header__caixa{
     display: flex;
@@ -12,6 +13,8 @@
 .header__lista{
 display: flex;
 list-style: none;
+flex-wrap: wrap;
+
 }
 .lista__link{
     text-decoration: none;
