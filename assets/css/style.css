@@ -1,13 +1,20 @@
 @import url('./header.css');
 @import url('./sobre.css');
-
+@import url('./descricao.css');
+@import url('./vagas.css');
+@import url('./colaboradores.css');
+@import url('./footer.css');
 :root{
     --branco:#FFFFFF;
+    --cor-de-fundo-footer: #F9FAFB;
     --vinho:#8E2424;
+    --vinho-claro:#8E24240D;
     --fonte-padrao:'Inter';
     --cinza-logo: #3A404E;
     --cinza:#667085;
     --cinza-escuro:#101828;
+    --vinho-cor-de-fundo:#C3191908;
+    --cinza-footer:#98A2B3;
 }
 *{
     padding: 0;
@@ -17,4 +24,5 @@ body{
     background-color: var(--branco);
     font-family: var(--fonte-padrao);
     font-size: 16px;
+    font-weight: 400;
 }

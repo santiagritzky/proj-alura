@@ -8,6 +8,9 @@
     justify-content: space-between;
 }
 .sobre__texto{
+    background-color: var(--vinho-claro);
+    padding: 0.5em;
+    border-radius: 24px;
     font-weight: 600;
     color: var(--vinho);
 }

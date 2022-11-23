@@ -1,0 +1,29 @@
+.lista__descricao {
+    display: flex;
+    list-style: none;
+    padding: 0 5em 6em 4em;
+}
+
+.lista__item {
+    margin-left: 2em;
+    width: 25%;
+}
+
+.titulo__lista {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--vinho);
+    margin-bottom: 1rem;
+}
+
+.sobre__lista {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cinza-escuro);
+    margin-bottom: 0.8rem;
+}
+
+.texto__lista {
+    color: var(--cinza);
+
+}
